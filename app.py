@@ -76,7 +76,7 @@ SOILCLASS_CODES = {v: k for k, v in SOILCLASS_LABELS.items()}
 # Typical (5–95%) ranges
 # ================================
 R = {
-    "t (years)": (10.0, 50.0),
+    "t (years)": (10.0, 40.0),
     "pH": (5.0, 8.0),
     "pp(A) (V)": (-1.5, -0.6),
     "re (Ω·m)": (5.0, 200.0),
@@ -235,5 +235,6 @@ with right:
         plt.tight_layout(pad=0.6)
 
         st.pyplot(fig, clear_figure=True, use_container_width=False)
+
 
 
