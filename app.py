@@ -212,7 +212,7 @@ with right:
 
     if "base_df" in st.session_state:
         base = st.session_state["base_df"]
-        t_pts = np.array([1, 10, 20, 30, 40, 50])
+        t_pts = np.array([1, 10, 20, 30, 40])
         d_pts = []
 
         for t in t_pts:
@@ -235,4 +235,5 @@ with right:
         plt.tight_layout(pad=0.6)
 
         st.pyplot(fig, clear_figure=True, use_container_width=False)
+
 
